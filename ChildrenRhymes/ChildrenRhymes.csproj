@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A23FF35-17A6-4C89-BFD5-CA88DF39A2AD}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChildrenRhymes</RootNamespace>
+    <AssemblyName>ChildrenRhymes</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>ChildrenRhymes_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Folder Include="Dialogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="clap.xaml.cs">
+      <DependentUpon>clap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="developer.xaml.cs">
+      <DependentUpon>developer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="hickory.xaml.cs">
+      <DependentUpon>hickory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="humpty.xaml.cs">
+      <DependentUpon>humpty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jack.xaml.cs">
+      <DependentUpon>jack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jingle.xaml.cs">
+      <DependentUpon>jingle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="johny.xaml.cs">
+      <DependentUpon>johny.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="london.xaml.cs">
+      <DependentUpon>london.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="piggy.xaml.cs">
+      <DependentUpon>piggy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ringa.xaml.cs">
+      <DependentUpon>ringa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sheep.xaml.cs">
+      <DependentUpon>sheep.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="teddy.xaml.cs">
+      <DependentUpon>teddy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="twinkle.xaml.cs">
+      <DependentUpon>twinkle.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Assets\twinkle\Thumbs.db" />
+    <None Include="ChildrenRhymes_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\arp.jpg" />
+    <Content Include="Assets\arrow.png" />
+    <Content Include="Assets\background.jpg" />
+    <Content Include="Assets\clap\clap.jpg" />
+    <Content Include="Assets\clap\clap_fro.jpg" />
+    <Content Include="Assets\hickory\hickory.jpg" />
+    <Content Include="Assets\hickory\hickory_fro.jpg" />
+    <Content Include="Assets\humpty\humpty.jpg" />
+    <Content Include="Assets\humpty\humpty_fro.jpg" />
+    <Content Include="Assets\jack\jack.jpg" />
+    <Content Include="Assets\jack\jack_fro.jpg" />
+    <Content Include="Assets\jingle\jingle.jpg" />
+    <Content Include="Assets\jingle\jingle_fro.jpg" />
+    <Content Include="Assets\johny\johny.jpg" />
+    <Content Include="Assets\johny\johny_fro.jpg" />
+    <Content Include="Assets\Logo-120.scale-100.png" />
+    <Content Include="Assets\Logo-120.scale-140.png" />
+    <Content Include="Assets\Logo-120.scale-180.png" />
+    <Content Include="Assets\Logo-120.scale-80.png" />
+    <Content Include="Assets\london\london.jpg" />
+    <Content Include="Assets\london\london_fro.jpg" />
+    <Content Include="Assets\arp_bck.jpg" />
+    <Content Include="Assets\piggy\piggy.jpg" />
+    <Content Include="Assets\piggy\piggy_fro.jpg" />
+    <Content Include="Assets\ringa\ringa.jpg" />
+    <Content Include="Assets\ringa\ringa_fro.jpg" />
+    <Content Include="Assets\sheep\sheep.jpg" />
+    <Content Include="Assets\sheep\sheep_fro.jpg" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\songs\1 jingle.mp3" />
+    <Content Include="Assets\songs\10 london.mp3" />
+    <Content Include="Assets\songs\11 ringa.mp3" />
+    <Content Include="Assets\songs\12 clap.mp3" />
+    <Content Include="Assets\songs\2 johny.mp3" />
+    <Content Include="Assets\songs\3 piggy.mp3" />
+    <Content Include="Assets\songs\4 jack.mp3" />
+    <Content Include="Assets\songs\5 teddy.mp3" />
+    <Content Include="Assets\songs\6 hickory.mp3" />
+    <Content Include="Assets\songs\7 humpty.mp3" />
+    <Content Include="Assets\songs\8 twinkle.mp3" />
+    <Content Include="Assets\songs\9 sheep.mp3" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\teddy\teddy.jpg" />
+    <Content Include="Assets\teddy\teddy_fro.jpg" />
+    <Content Include="Assets\twinkle\twinkle.jpg" />
+    <Content Include="Assets\twinkle\twinkle_fro.jpg" />
+    <Content Include="Assets\Wlogo-120-scale-100.jpg" />
+    <Content Include="Assets\Wlogo-120-scale-140.jpg" />
+    <Content Include="Assets\Wlogo-120-scale-180.jpg" />
+    <Content Include="Assets\Wlogo-120-scale-80.jpg" />
+    <Content Include="Assets\Wlogo-120-scale-80.scale-100.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="clap.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="developer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="hickory.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="humpty.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="jack.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="jingle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="johny.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="london.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="piggy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ringa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="sheep.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="teddy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="twinkle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,90 @@
+﻿<Page
+    x:Class="ChildrenRhymes.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ChildrenRhymes"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="1363.432">
+
+
+    <Grid HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366" Margin="0,0,-3,0">
+
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <ScrollViewer Margin="0,120,0,0" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Hidden" >
+            <StackPanel HorizontalAlignment="Left" Height="648" Margin="0,0,0,0" Orientation="Horizontal" VerticalAlignment="Top" Width="7900">
+
+                <Grid x:ConnectionId='1' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                     >
+                    <Image HorizontalAlignment="Right" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/jingle/jingle_fro.jpg" Stretch="Fill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Jingle Bells" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='2' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/twinkle/twinkle_fro.jpg" Stretch="UniformToFill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Twinkle Twinkle" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='3' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/piggy/piggy_fro.jpg" Stretch="UniformToFill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Piggy on the railway" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='4' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/jack/jack_fro.jpg" Stretch="Fill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Jack and Jill" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='5' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/teddy/teddy_fro.jpg" Stretch="UniformToFill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Teddy Bear Teddy Bear" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='6' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/hickory/hickory_fro.jpg" Stretch="Fill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Hickery Dickry Dock" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='7' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/humpty/humpty_fro.jpg" Stretch="Fill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Humpty Dumpty Dock" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='8' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/johny/johny_fro.jpg" Stretch="UniformToFill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Johny Johny Yes Papa" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='9' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/sheep/sheep_fro.jpg" Stretch="Fill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Baa Baa Black Sheep" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='10' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                       >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/london/london_fro.jpg" Stretch="Fill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="London Bridge is Falling Down" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='11' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                        >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/ringa/ringa_fro.jpg" Stretch="Fill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Ringa Ringa Roses" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='12' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                        >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/clap/clap_fro.jpg" Stretch="Fill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="Clap Your Hands" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+                <Grid x:ConnectionId='13' Background="Gray" Height="500" Width="500" Margin="100,0,0,0"                        >
+                    <Image HorizontalAlignment="Left" Height="425" VerticalAlignment="Top" Width="500" Source="Assets/arp.jpg" Stretch="UniformToFill" Opacity="0.9"/>
+                    <TextBlock Height="70" Margin="0,440,0,0" TextWrapping="Wrap" Text="About Me" Width="500" FontSize="30" TextAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+            </StackPanel>
+
+        </ScrollViewer>
+    </Grid>
+</Page>
+

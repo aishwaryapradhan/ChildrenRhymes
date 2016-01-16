@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ARP-LAP</Machine>
+    <WindowsUser>Aishwarya R Pradhan</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\ChildrenRhymes.exe">
+      <PackagePath>ChildrenRhymes.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\ChildrenRhymes.pdb">
+      <PackagePath>ChildrenRhymes.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\arp.jpg">
+      <PackagePath>Assets\arp.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\background.jpg">
+      <PackagePath>Assets\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\clap\clap.jpg">
+      <PackagePath>Assets\clap\clap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\clap\clap_fro.jpg">
+      <PackagePath>Assets\clap\clap_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\hickory\hickory.jpg">
+      <PackagePath>Assets\hickory\hickory.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\hickory\hickory_fro.jpg">
+      <PackagePath>Assets\hickory\hickory_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\humpty\humpty.jpg">
+      <PackagePath>Assets\humpty\humpty.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\humpty\humpty_fro.jpg">
+      <PackagePath>Assets\humpty\humpty_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\jack\jack.jpg">
+      <PackagePath>Assets\jack\jack.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\jack\jack_fro.jpg">
+      <PackagePath>Assets\jack\jack_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\jingle\jingle.jpg">
+      <PackagePath>Assets\jingle\jingle.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\jingle\jingle_fro.jpg">
+      <PackagePath>Assets\jingle\jingle_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\johny\johny.jpg">
+      <PackagePath>Assets\johny\johny.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\johny\johny_fro.jpg">
+      <PackagePath>Assets\johny\johny_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\london\london.jpg">
+      <PackagePath>Assets\london\london.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\london\london_fro.jpg">
+      <PackagePath>Assets\london\london_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\arp_bck.jpg">
+      <PackagePath>Assets\arp_bck.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\piggy\piggy.jpg">
+      <PackagePath>Assets\piggy\piggy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\piggy\piggy_fro.jpg">
+      <PackagePath>Assets\piggy\piggy_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\ringa\ringa.jpg">
+      <PackagePath>Assets\ringa\ringa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\ringa\ringa_fro.jpg">
+      <PackagePath>Assets\ringa\ringa_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\sheep\sheep.jpg">
+      <PackagePath>Assets\sheep\sheep.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\sheep\sheep_fro.jpg">
+      <PackagePath>Assets\sheep\sheep_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\teddy\teddy.jpg">
+      <PackagePath>Assets\teddy\teddy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\teddy\teddy_fro.jpg">
+      <PackagePath>Assets\teddy\teddy_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\twinkle\twinkle.jpg">
+      <PackagePath>Assets\twinkle\twinkle.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\twinkle\twinkle_fro.jpg">
+      <PackagePath>Assets\twinkle\twinkle_fro.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\arrow.png">
+      <PackagePath>Assets\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\1 jingle.mp3">
+      <PackagePath>Assets\songs\1 jingle.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\10 london.mp3">
+      <PackagePath>Assets\songs\10 london.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\11 ringa.mp3">
+      <PackagePath>Assets\songs\11 ringa.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\12 clap.mp3">
+      <PackagePath>Assets\songs\12 clap.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\2 johny.mp3">
+      <PackagePath>Assets\songs\2 johny.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\3 piggy.mp3">
+      <PackagePath>Assets\songs\3 piggy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\4 jack.mp3">
+      <PackagePath>Assets\songs\4 jack.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\5 teddy.mp3">
+      <PackagePath>Assets\songs\5 teddy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\6 hickory.mp3">
+      <PackagePath>Assets\songs\6 hickory.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\7 humpty.mp3">
+      <PackagePath>Assets\songs\7 humpty.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\8 twinkle.mp3">
+      <PackagePath>Assets\songs\8 twinkle.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\Assets\songs\9 sheep.mp3">
+      <PackagePath>Assets\songs\9 sheep.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\clap.xaml">
+      <PackagePath>clap.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\developer.xaml">
+      <PackagePath>developer.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\hickory.xaml">
+      <PackagePath>hickory.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\humpty.xaml">
+      <PackagePath>humpty.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\jack.xaml">
+      <PackagePath>jack.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\jingle.xaml">
+      <PackagePath>jingle.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\johny.xaml">
+      <PackagePath>johny.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\london.xaml">
+      <PackagePath>london.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\piggy.xaml">
+      <PackagePath>piggy.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\ringa.xaml">
+      <PackagePath>ringa.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\sheep.xaml">
+      <PackagePath>sheep.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\teddy.xaml">
+      <PackagePath>teddy.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\twinkle.xaml">
+      <PackagePath>twinkle.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aishwarya\documents\visual studio 2012\Projects\ChildrenRhymes\ChildrenRhymes\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
